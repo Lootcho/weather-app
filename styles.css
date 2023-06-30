@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+img{
+    width: 270px;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.affichage{
+    width: 400px;
+    background-color: #88f5ff;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #004dc0;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+.ville{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #004dc0;
+}
+.temperature{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7rem;
+    font-weight: 800;
+    color: #009deb;
+}
+.ilustration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #004dc0;
+}
+
